@@ -1,0 +1,14 @@
+body{
+    background-image: url(/network_tunes/Escandalosos/6.jpg);
+    background-color: #009FBD;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card:hover{
+    transform: scale(1.05) ;
+}
+
+.card-body{
+    flex: none;
+    padding: 1rem 1rem;
+}
