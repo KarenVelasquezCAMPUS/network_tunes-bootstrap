@@ -25,3 +25,21 @@ body{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+
+#nomnom:hover{
+    content: url(/Escandalosos/8aa.png);
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+.card:hover{
+    transform: scale(1.05) ;
+}
+
+.card-body{
+    flex: none;
+    padding: 1rem 1rem;
+}
