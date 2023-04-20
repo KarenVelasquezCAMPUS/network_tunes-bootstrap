@@ -1,0 +1,7 @@
+#personajes{
+    justify-content: end;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
