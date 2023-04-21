@@ -19,204 +19,202 @@
 
     <!-- css -->
     <link href="./stylew.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
 
     <title> Winnie the Pooh </title>
-    <link rel="icon" href="./img_icons/logoNT.png">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
+    <link rel="icon" href="./img_w/iconw.png">
     
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-    
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark d-block">
+
+  <div class="container d-flex w-100 h-100 p-0 mx-auto flex-column">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
+        <div class="container-fluid">
+          <img src="./img_icons/logoNT.png" alt="network tunes" class="img-fluid d-block mx-auto" width="6%" >
+        </div>
+      </nav>
+    </header>
+
+<main>
+
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: black;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Carousel</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+      <img src="./imagenes/logoNT.png" alt="network tunes" class="img-fluid d-block mx-auto" width="6%" >
     </div>
   </nav>
 </header>
 
-<main>
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
+<!--Carousel Imagenes-->
+<div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
+<div class="carousel-indicators">
+  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="./img_w/bg.jpg" alt="fondo1">
+    <div class="container">
+      <div class="carousel-caption">
+        <img class="img-fluid" src="./img_w/iconw.png" alt="fondo">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+  <div class="carousel-item">
+    <img src="./imagenes/fondo2.2.jpg" alt="fondo2">
+    <div class="container">
+      <div class="carousel-caption">
+        <img class="img-fluid" src="./imagenes/fondo2.png" alt="fondo2.2">
       </div>
     </div>
+  </div>
+  <div class="carousel-item">
+    <img src="./imagenes/fondopark.jpg" alt="fondo-park">
+    <div class="container">
+      <div class="carousel-caption">
+        <img class="img-fluid" src="./imagenes/fondobenson.jpg" alt="fondo-benson">
+      </div>
+    </div>
+  </div>
+  
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
 
-    <hr class="featurette-divider">
+</div>
 
+<!-- Personajes -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/winnie2.jpg" alt="winnie icon" width="140" height="140">
+        <h2> Winnie the Pooh </h2>
+        <p> Osito de peluche antropomorfo que es protagonista de varios libros creados por Alan Alexander Milne. Posteriormente protagonizó numerosas adaptaciones de The Walt Disney Company. </p>
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/igor1.jpg" alt="igor icon" width="140" height="140">
+        <h2> Ígor </h2>
+        <p> Personaje de la serie de libros, películas y series animadas Winnie the Pooh, generalmente representado como un viejo burro de peluche gris bastante pesimista y melancólico. </p>
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/piglet2.jpg" alt="piglet icon" width="140" height="140">
+        <h2> Piglet </h2>
+        <p> Se trata de un cerdito rosa que el creador hizo inspirado en un peluche de su hijo, personaje ficticio el cual es el mejor amigo del protagonista Winnie the Pooh. </p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/rabbit2.jpg" alt="rabbit icon" width="140" height="140">
+        <h2> Rabbit </h2>
+        <p> Es amigo de Winnie-the-Pooh, se considera práctico y tiende a tomar la iniciativa, aunque no siempre con los resultados que pretende.  </p>
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/owl1.jpg" alt="owl icon" width="140" height="140">
+        <h2> Owl </h2>
+        <p> Búho es muy sabio, a la vez de que no sabe absolutamente nada. Tiene muchos libros, pero no sabe leer muy bien. </p>
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/kanga1.jpg" alt="kanga icon" width="140" height="140">
+        <h2> Kanga </h2>
+        <p>  Kanga fue basada en un animal de peluche perteneciente a Christopher Robin Milne, siendo un canguro adulto de género femenino. </p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/rito2.jpg" alt="rito icon" width="140" height="140">
+        <h2> Rito </h2>
+        <p> Rito es un animal muy pequeño, el más pequeño de la historia aparte de los amigos de conejo y de las relaciones. </p>
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/tigger1.jpg" alt="tigger icon" width="140" height="140">
+        <h2> Tigger </h2>
+        <p> Es un tigre de peluche antropomórfico enérgico perteneciente a Christopher Robin. </p>
+    </div><!-- /.col-lg-4 -->
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle" src="./img_w/Robin.webp" alt="Robin icon" width="140" height="140">
+        <h2> Christopher Robin </h2>
+        <p> Christopher es un joven amistoso y parece ser bastante inteligente para un niño de su edad. También es aventurero y animado. </p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+  
+        <!-- START THE FEATURETTES -->
+  <hr class="featurette-divider">
     <div class="row featurette">
+
+      <div class="col-md-7">
+        <h2 class="featurette-heading"> Winnie the Pooh's Home Run Derby</h2>
+          <p class="lead">Winnie the Pooh's Home Run Derby es un videojuego de béisbol de 2007 desarrollado por Walt Disney Japan. El juego de navegador basado en Adobe Flash se publicó por primera vez en línea en el sitio DisneyGames.jp, luego por Yahoo! Japón en su Yahoo! Portal de niños.</p>
+      </div>
+
+      <div class="col-md-5">
+        <a href="https://www.juegosdiarios.com/juegos/winnie-the-pooh-home-run-derby.html" > 
+          <img src="./img_w/juego1 (1).jpg" alt="1">
+        </a>
+      </div>
+    </div>
+    
+  <hr class="featurette-divider">
+    <div class="row featurette">
+
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+        <h2 class="featurette-heading"> Tigger's Honey Hunt </h2>
+          <p class="lead"> Tigger's Honey Hunt es un videojuego basado en la franquicia Winnie the Pooh que se lanzó en 2000 para Nintendo 64, PlayStation y Microsoft Windows. </p>
       </div>
+
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+        <a href="https://m.imdb.com/title/tt2408626/mediaviewer/rm2714114560" > 
+          <img src="./img_w/juego2 (1).jpg" alt="2">
+        </a>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
+    
+  <hr class="featurette-divider">
     <div class="row featurette">
+
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+        <h2 class="featurette-heading"> Preschool Winnie the Pooh </h2>
+          <p class="lead"> Con Winnie the Pooh Preschool de Disney, los niños pequeños pueden obtener una comprensión temprana del reconocimiento de letras y números, fonética, secuenciación y más. </p>
       </div>
+
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+        <a href="https://oldgamesdownload.com/disneys-winnie-the-pooh-preschool/" > 
+          <img src="./img_w/juego3 (1).jpg" alt="3">
+        </a>
       </div>
+
     </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
+    
+  <hr class="featurette-divider">
+<!-- /END THE FEATURETTES -->
+    
+</div><!-- /.container -->
+    
+<!-- FOOTER -->
+<footer class="container">
+  <p class="float-end"><a href="#"> Arriba </a></p>
+  <p>&copy; network tunes &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+</footer>
 </main>
+    
 
-
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-      
-  </body>
+<!-- JavaScript Bootstrap 5.0.2-->
+<script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+</body>
 </html>
